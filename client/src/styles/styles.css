@@ -1,0 +1,380 @@
+@media (min-width:1536px) {
+    .innerwidth {
+        max-width: 1280px;
+        margin: auto;
+    }
+}
+
+/********************************NavBar CSS*****************************************************/
+.downnavbar {
+    background-color: rgb(54, 42, 6);
+    border: 1px solid orange;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(137, 156, 135, 0.5);
+}
+
+.yitlogo {
+    margin-top: -10px;
+}
+
+.navigation {
+    background: rgb(2, 0, 27);
+    background: linear-gradient(90deg, rgba(2, 0, 27, 1) 0%, rgba(4, 4, 4, 1) 55%, rgba(107, 107, 107, 1) 100%);
+
+    position: fixed;
+}
+
+.yitheading {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dropact {
+    background-color: rgba(49, 136, 160, 0.4);
+}
+
+.dropact:hover {
+    background-color: rgba(50, 94, 70, 0.8);
+    transition: width 2s, height 2s, background-color 2s;
+}
+
+.navrow {
+    transition: all 0.5s ease-out;
+    border-radius: 10px;
+    color: #e6dede;
+    text-decoration: none;
+}
+
+.navrow:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/************************************** Home Page**************************************/
+
+.homepage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 31rem;
+    margin-top: 8.0rem;
+    background-color: #e4e1cf;
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipM7qvjeKCmiWkg6YKr1vsS7kgbdCWa5n-a1IidF=s680-w680-h510);
+    background-size: cover;
+    /* background-image: linear-gradient(to right bottom, #c0c0c0, #adadad, #999a9a, #868788, #747576); */
+}
+
+.homepage-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+
+.homepage-left {
+    margin-left: 2rem;
+    border-radius: 10px;
+    width: 35rem;
+}
+
+.homepage-right {
+    margin-top: 23px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    margin-top: 10px;
+    border-radius: 25px;
+    -webkit-box-shadow: -49px 35px 30px -12px rgba(48, 47, 47, 0.5);
+    -moz-box-shadow: -49px 35px 30px -12px rgba(56, 55, 55, 0.5);
+    box-shadow: -49px 35px 30px -12px rgba(70, 68, 68, 0.5);
+}
+
+.card-left {
+    -webkit-box-shadow: -49px 35px 30px -12px rgba(48, 47, 47, 0.5);
+    -moz-box-shadow: -49px 35px 30px -12px rgba(56, 55, 55, 0.5);
+    box-shadow: -49px 35px 30px -12px rgba(70, 68, 68, 0.5);
+}
+
+.cardbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardtitle,
+.cardtext {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+}
+
+.typewriter {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    gap: 5px;
+    height: 50px;
+}
+
+.typewriter-center {}
+
+/**********************************About****************************************/
+.about {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    align-items: end;
+    justify-content: space-between;
+    background-color: #fefae0;
+}
+
+.about-left-left {
+    border: 1px solid black;
+    margin-left: 5rem;
+    border-radius: 10px;
+    width: 25rem;
+    height: 100%;
+}
+
+.about-left-right {
+    margin-left: 5rem;
+    border-radius: 10px;
+    width: 50rem;
+    height: 100%;
+}
+
+.about-conatiner {
+    display: flex;
+    overflow: hidden;
+}
+
+.college-name {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 600;
+    color: red;
+}
+
+.college-description {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+/****************************************Admission*****************************************/
+.admission {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: end;
+    justify-content: space-between;
+    background-color: rgba(230, 230, 230, 0.863);
+}
+
+.admission-container {
+    display: flex;
+}
+
+.admission-right {
+    margin-left: 5rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 30rem;
+    height: 80%;
+    box-shadow: 10px 10px 40px rgba(7, 7, 7, 0.596);
+    margin-right: 35px;
+}
+
+.course-list {
+    background-color: rgba(43, 46, 46, 0.6);
+    border-radius: 15px;
+}
+
+.course-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.admission-left {
+    margin-left: 5rem;
+    border-radius: 10px;
+    width: 30rem;
+    height: 100%;
+}
+
+.tech-logo {}
+
+.procedure-list {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: start;
+}
+
+.procedure {
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: start;
+}
+.course-details{
+    text-decoration: none;
+    color: black;
+}
+.course-details:hover{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+}
+/***********************************Department**************************************/
+.department {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(202, 200, 198, 0.747);
+}
+
+.dpt-name {
+    padding-top: 10px;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    color: brown;
+}
+
+.dpt-desc {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.vision-mission {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: italic;
+    color: brown;
+}
+
+.mission-list {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.login{
+    border: 1px solid black;
+    height: 90vh;
+    background-color: aliceblue;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    border: 1px solid black;
+}
+.innerContainer{
+    width: 350px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px 0 0;
+}
+.input{
+    height: 45px;
+    width: 350px;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 45px;
+}
+
+.input-feild{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.button-submit{
+    border-radius: 30px;
+    height: 45px;
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+
+}
+
+.button-submit:hover{
+    background-color: indigo;
+}
+
+.Student-page-style{
+    background-color: #e6dede;
+    min-height: 100vh;
+    min-width: 75%;
+}
+
+
+.inner-container{
+    background-color: #fefae0;
+    justify-content: space-evenly;
+    height: 75vh;
+}
+.left-side{
+    background-color: aqua;
+    border: 1px solid black;
+    width: 25%;
+}
+.right-side{
+    background-color: bisque;
+    border: 1px solid black;
+    width: 75%;
+}
+
+
+
+
+
+
+
+/*
+.achivements {
+    border: 2px solid rgb(66, 39, 139);
+    width: 70%;
+    height: 30rem;
+}
+
+.contactus {
+    border: 2px solid rgb(73, 216, 7);
+    width: 70%;
+    height: 30rem;
+}
+
+.notes {
+    border: 2px solid rgb(80, 16, 16);
+    width: 70%;
+    height: 30rem;
+}
+
+.galary {
+    border: 2px solid rgb(10, 56, 83);
+    width: 70%;
+    height: 30rem;
+}
+
+.footer {
+    border: 2px solid rgb(24, 137, 156);
+    width: 70%;
+    height: 30rem;
+}
+
+.main {
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+} */
